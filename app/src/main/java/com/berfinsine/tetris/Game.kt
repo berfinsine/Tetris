@@ -223,7 +223,7 @@ class Game : AppCompatActivity() {
             6 -> {array[0].setBackgroundResource(R.drawable.purpleblock);array[1].setBackgroundResource(R.drawable.purpleblock);array[2].setBackgroundResource(R.drawable.purpleblock);array[3].setBackgroundResource(R.drawable.purpleblock)}
             7 -> {array[0].setBackgroundResource(R.drawable.pinkblock);array[1].setBackgroundResource(R.drawable.pinkblock);array[2].setBackgroundResource(R.drawable.pinkblock);array[3].setBackgroundResource(R.drawable.pinkblock)}
         }
-        if (array[0].text=="0"&&array[1].text=="0"&&array[2].text=="0"&&array[3].text=="0"){points+=15;list2()}
+        if (array[0].text=="0"&&array[1].text=="0"&&array[2].text=="0"&&array[3].text=="0"){points+=20;list2()}
         else{array.removeAll(array);arrayCollectPreviousOne.removeAll(arrayCollectPreviousOne);Handler().postDelayed({list()}, 600)}
     }
 }
